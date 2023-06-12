@@ -1,3 +1,5 @@
+/* Header */
+
 .headerPrincipal .container {
     display: flex;
     align-items: center;
@@ -5,5 +7,41 @@
 }
 
 .headerPrincipal-nav {
+    display: flex;
+}
+
+/*Mapa de curso*/
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* footer */
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+.headerPrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
